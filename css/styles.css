@@ -19,11 +19,7 @@ button {
 
 /* region header */
 
-.header-page {}
-
-.nav-page {}
-
-.logo {
+..logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -33,6 +29,7 @@ button {
     color: #4d5ae5;
 }
 
+/* Стиль для тегу span всередині логотипу */
 .logo-style {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -43,28 +40,10 @@ button {
     color: #2e2f42;
 }
 
+/* Стиль для навігаційних посилань */
 .nav-list {}
 
 .nav-item {}
-
-.nav-item-linkli {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-
-.nav-item-linkli:hover,
-.nav-item-linkli:focus {
-    color: #404bbf
-}
-.nav-item-linkli:hover,
-.nav-item-linkli:active {
-    text-decoration: underline;
-    text-decoration-color: #404bbf;
-}
-
 
 .nav-item-link {
     font-weight: 500;
@@ -72,30 +51,38 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    }
+    text-decoration: none;
+}
 
 .nav-item-link:hover,
 .nav-item-link:focus {
     color: #404bbf;
-
 }
 
+.nav-item-link:hover,
+.nav-item-link:active {
+    text-decoration: underline;
+    text-decoration-color: #404bbf;
+}
+
+/* Стиль для address */
 .address {
     font-style: normal;
 }
 
-.adress-item {}
+.address-item {}
 
-.adress-item-link {
+.address-item-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
-.adress-item-link:hover,
-.adress-item-link:focus {
+.address-item-link:hover,
+.address-item-link:focus {
     color: #404bbf;
 }
 
